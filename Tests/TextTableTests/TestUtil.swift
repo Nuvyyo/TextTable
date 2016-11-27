@@ -18,7 +18,7 @@ struct Person {
 
 let df: DateFormatter = {
     let dateFormatter = DateFormatter()
-    dateFormatter.dateStyle = .short
+	dateFormatter.dateFormat = "M/d/yy"
     return dateFormatter
 }()
 
