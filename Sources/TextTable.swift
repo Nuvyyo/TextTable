@@ -53,6 +53,7 @@ public enum Style {
     public static let html = Html.self
     public static let grid = Grid.self
     public static let fancy = FancyGrid.self
+	public static let csv = CSV.self
 }
 
 /**
