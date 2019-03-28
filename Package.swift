@@ -3,5 +3,8 @@
 import PackageDescription
 
 let package = Package(
-    name: "TextTable"
+    name: "TextTable",
+    targets: [
+        .target(name: "TextTable", path: "Sources")
+    ]
 )
